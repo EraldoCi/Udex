@@ -18,7 +18,7 @@ Com o objetivo de auxiliar na formação de profissionais, incentivar indivíduo
 
 Além da diversidade e qualidade dos conteúdos, os alunos irão desenvolver novas habilidades, trabalharão a criatividade uma vez que o conteúdo é multidisciplinar.
 
-<img src=".github/health-prevent-technology.gif">
+<img src=".github/central-bit.gif">
 
 ## Instalação
 
@@ -32,5 +32,5 @@ Este projeto foi desenvolvido na **Hackaton CCR 2º Edição** organizada pela S
 
 ## Licença
 
-Copyright © 2020 [Mateus Antonio da Silva](https://github.com/mateustoin), [João Victor Galvão](https://github.com/JVictorGalvao), [Laura de Faria Maranhão Ayres](https://github.com/lauradefaria), [Marismar da Costa Silva](https://github.com/marismarcosta), [Gustavo Eraldo da Silva](https://github.com/EraldoCi).<br />
+Copyright © 2021 [Mateus Antonio da Silva](https://github.com/mateustoin), [João Victor Galvão](https://github.com/JVictorGalvao), [Laura de Faria Maranhão Ayres](https://github.com/lauradefaria), [Marismar da Costa Silva](https://github.com/marismarcosta), [Gustavo Eraldo da Silva](https://github.com/EraldoCi).<br />
 This project is [MIT](https://github.com/EraldoCi/central-bit/blob/main/LICENSE) licensed.
