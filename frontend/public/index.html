@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="shortcut icon" type="image/png" href="../images/icon.png" />
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../src/style.css" />
+    <title>Central bit | Inovar novos horizontes</title>
+
+    <script defer src="../src/script.js"></script>
+  </head>
+  <body>
+    <header class="header">
+      <nav class="nav">
+        <img
+          src="../images/logo.png"
+          alt="Bankist logo"
+          class="nav__logo"
+          id="logo"
+        />
+        <ul class="nav__links">
+          <li class="nav__item">
+            <a class="nav__link" href="#section--1">Conteúdos</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="#section--2">Benefícios</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="#section--3">Projetos</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link nav__link--btn btn--show-modal" href="#"
+              >Acesse já</a
+            >
+          </li>
+          <!--a href="./projects.html">Projetos</a--> 
+        </ul>
+      </nav>
+
+      <div class="header__title">
+        <h1>
+          Aprenda a
+          <span class="highlight">inovar</span>
+          para<br />
+          <span class="highlight">alcançar</span>
+          novos horizontes
+        </h1>
+        <h4>
+          Imagine-se utilizando este produto e desfrutando de todos os benefícios 
+          que ele oferece.
+        </h4>
+        <button class="btn--text btn--scroll-to">Conheça mais sobre &DownArrow;</button>
+        <img
+          src="../images/hero.png"
+          class="header__img"
+          alt="Minimalist bank items"
+        />
+      </div>
+    </header>
+
+    <section class="section" id="section--1">
+      <div class="section__title">
+        <h2 class="section__description">Conteúdos</h2>
+        <h3 class="section__header">
+          Tudo o que você precisa para mudar sua carreira.
+        </h3>
+      </div>
+
+      <div class="features">
+        <img
+          src="../images/digital-lazy.jpg"
+          data-src="../images/digital.jpg"
+          alt="Computer"
+          class="features__img"
+        />
+        <div class="features__feature">
+          <div class="features__icon">
+            <svg>
+              <use xlink:href="../images/icons.svg#icon-monitor"></use>
+            </svg>
+          </div>
+          <h5 class="features__header">Sistemas embarcados</h5>
+          <p>
+            Sistemas embarcados é o nome que se dá a programas e 
+            sistemas embutidos em microprocessadores, que executam tarefas 
+            específicas em um aparelho. Eles estão presentes em diversos 
+            equipamentos do dia a dia.
+          </p>
+        </div>
+
+        <div class="features__feature">
+          <div class="features__icon">
+            <svg>
+              <use xlink:href="../images/icons.svg#icon-trending-up"></use>
+            </svg>
+          </div>
+          <h5 class="features__header">Robótica</h5>
+          <p>
+            A automação industrial de uma máquina/processo consiste 
+            essencialmente em escolher, entre as diversas tecnologias 
+            que se encontram ao nosso dispor, as que melhor se adaptam 
+            ao processo industrial e desenvolver a melhor maneira de as 
+            interligar para garantir sempre a melhor relação custo/beneficio. 
+            A automação industrial é normalmente dividida em 3 níveis.
+          </p>
+        </div>
+        <img
+          src="../images/grow-lazy.jpg"
+          data-src="../images/grow.jpg"
+          alt="Plant"
+          class="features__img lazy-img"
+        />
+
+        <img
+          src="../images/card-lazy.jpg"
+          data-src="../images/card.jpg"
+          alt="Credit card"
+          class="features__img lazy-img"
+        />
+        <div class="features__feature">
+          <div class="features__icon">
+            <svg>
+              <use xlink:href="../images/icons.svg#icon-credit-card"></use>
+            </svg>
+          </div>
+          <h5 class="features__header">Internet das coisas</h5>
+          <p>
+            Suas possibilidades são inúmeras, a Internet das Coisas 
+            está transformando nossa relação com a tecnologia, mudando 
+            o modo como interagimos com o mundo e, principalmente, o modo 
+            como o mundo interage conosco.
+          </p>
+        </div>
+      
+        <div class="features__feature">
+          <div class="features__icon">
+            <svg>
+              <use xlink:href="../images/icons.svg#icon-trending-up"></use>
+            </svg>
+          </div>
+          <h5 class="features__header">Programação</h5>
+          <p>
+            A automação industrial de uma máquina/processo consiste 
+            essencialmente em escolher, entre as diversas tecnologias 
+            que se encontram ao nosso dispor, as que melhor se adaptam 
+            ao processo industrial e desenvolver a melhor maneira de as 
+            interligar para garantir sempre a melhor relação custo/beneficio. 
+            A automação industrial é normalmente dividida em 3 níveis.
+          </p>
+        </div>
+        <img
+          src="../images/grow-lazy.jpg"
+          data-src="../images/program.jpg"
+          alt="Plant"
+          class="features__img lazy-img"
+        />
+      </div>
+    </section>
+
+    <section class="section" id="section--2">
+      <div class="section__title">
+        <h2 class="section__description">Benefícios</h2>
+        <h3 class="section__header">
+          Everything as simple as possible, but no simpler.
+        </h3>
+      </div>
+
+      <div class="operations">
+        <div class="operations__tab-container">
+          <button
+            class="btn operations__tab operations__tab--1 operations__tab--active"
+            data-tab="1"
+          >
+            <span>01</span>Multidisciplinaridade
+          </button>
+          <button class="btn operations__tab operations__tab--2" data-tab="2">
+            <span>02</span>Ampla aplicabilidade
+          </button>
+          <button class="btn operations__tab operations__tab--3" data-tab="3">
+            <span>03</span>Mercado de trabalho
+          </button>
+        </div>
+        <div
+          class="operations__content operations__content--1 operations__content--active"
+        >
+          <div class="operations__icon operations__icon--1">
+            <svg>
+              <use xlink:href="../images/icons.svg#icon-upload"></use>
+            </svg>
+          </div>
+          <h5 class="operations__header">
+            Tranfser money to anyone, instantly! No fees, no BS.
+          </h5>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat.
+          </p>
+        </div>
+
+        <div class="operations__content operations__content--2">
+          <div class="operations__icon operations__icon--2">
+            <svg>
+              <use xlink:href="../images/icons.svg#icon-home"></use>
+            </svg>
+          </div>
+          <h5 class="operations__header">
+            Inove seus projetos e resolva novos problemas.
+          </h5>
+          <p>
+            Duis aute irure dolor in reprehenderit in voluptate velit esse
+            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+            cupidatat non proident, sunt in culpa qui officia deserunt mollit
+            anim id est laborum.
+          </p>
+        </div>
+        <div class="operations__content operations__content--3">
+          <div class="operations__icon operations__icon--3">
+            <svg>
+              <use xlink:href="../images/icons.svg#icon-user-x"></use>
+            </svg>
+          </div>
+          <h5 class="operations__header">
+            No longer need your account? No problem! Close it instantly.
+          </h5>
+          <p>
+            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+            officia deserunt mollit anim id est laborum. Ut enim ad minim
+            veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+            ea commodo consequat.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="section--3">
+      <div class="section__title section__title--testimonials">
+        <h2 class="section__description">Ainda não tem certeza?</h2>
+        <h3 class="section__header">
+          Milhares de usuários já estão fazendo a diferença.
+        </h3>
+      </div>
+
+      <div class="slider">
+        <div class="slide slide--1">
+          <div class="testimonial">
+            <h5 class="testimonial__header">Conteúdo sensacional!</h5>
+            <blockquote class="testimonial__text">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+              Accusantium quas quisquam non? Quas voluptate nulla minima
+              deleniti optio ullam nesciunt, numquam corporis et asperiores
+              laboriosam sunt, praesentium suscipit blanditiis. Necessitatibus
+              id alias reiciendis, perferendis facere pariatur dolore veniam
+              autem esse non voluptatem saepe provident nihil molestiae.
+            </blockquote>
+            <address class="testimonial__author">
+              <img
+                src="../images/user-1.jpg"
+                alt=""
+                class="testimonial__photo"
+              />
+              <h6 class="testimonial__name">Aarav Lynn</h6>
+              <p class="testimonial__location">João Pessoa, Paraíba</p>
+            </address>
+          </div>
+        </div>
+
+        <div class="slide slide--2">
+          <div class="testimonial">
+            <h5 class="testimonial__header">
+              Consegui meu primeiro estágio graças à nome_da_plataforma!
+            </h5>
+            <blockquote class="testimonial__text">
+              Quisquam itaque deserunt ullam, quia ea repellendus provident,
+              ducimus neque ipsam modi voluptatibus doloremque, corrupti
+              laborum. Incidunt numquam perferendis veritatis neque repellendus.
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo
+              deserunt exercitationem deleniti.
+            </blockquote>
+            <address class="testimonial__author">
+              <img
+                src="../images/user-2.jpg"
+                alt=""
+                class="testimonial__photo"
+              />
+              <h6 class="testimonial__name">Miyah Miles</h6>
+              <p class="testimonial__location">Caicó, Rio Grande do Norte</p>
+            </address>
+          </div>
+        </div>
+
+        <div class="slide slide--3">
+          <div class="testimonial">
+            <h5 class="testimonial__header">
+              Aumentei o lucro no meu negócio, com novos públicos
+            </h5>
+            <blockquote class="testimonial__text">
+              Debitis, nihil sit minus suscipit magni aperiam vel tenetur
+              incidunt commodi architecto numquam omnis nulla autem,
+              necessitatibus blanditiis modi similique quidem. Odio aliquam
+              culpa dicta beatae quod maiores ipsa minus consequatur error sunt,
+              deleniti saepe aliquid quos inventore sequi. Necessitatibus id
+              alias reiciendis, perferendis facere.
+            </blockquote>
+            <address class="testimonial__author">
+              <img
+                src="../images/user-3.jpg"
+                alt=""
+                class="testimonial__photo"
+              />
+              <h6 class="testimonial__name">Francisco Gomes</h6>
+              <p class="testimonial__location">Timbaúba, Pernambuco</p>
+            </address>
+          </div>
+        </div>
+
+        <!-- <div class="slide"><img src="../images/img-1.jpg" alt="Photo 1" /></div>
+        <div class="slide"><img src="../images/img-2.jpg" alt="Photo 2" /></div>
+        <div class="slide"><img src="../images/img-3.jpg" alt="Photo 3" /></div>
+        <div class="slide"><img src="../images/img-4.jpg" alt="Photo 4" /></div> -->
+        <button class="slider__btn slider__btn--left">&larr;</button>
+        <button class="slider__btn slider__btn--right">&rarr;</button>
+        <div class="dots"></div>
+      </div>
+    </section>
+
+    <section class="section section--sign-up">
+      <div class="section__title">
+        <h3 class="section__header">
+          Não perca tempo, o melhor
+          momento para entrar nesta jornada é agora!
+        </h3>
+      </div>
+      <button class="btn btn--show-modal">Acesse já gratuitamente!</button>
+    </section>
+
+    <footer class="footer">
+      <ul class="footer__nav">
+        <li class="footer__item">
+          <a class="footer__link" href="#">Sobre</a>
+        </li>
+        <li class="footer__item">
+          <a class="footer__link" href="#">Conteúdo</a>
+        </li>
+        <li class="footer__item">
+          <a class="footer__link" href="#">Benefícios</a>
+        </li>
+        <li class="footer__item">
+          <a class="footer__link" href="#">Depoimentos</a>
+        </li>
+      </ul>
+      <img src="../images/icon.png" alt="Logo" class="footer__logo" />
+      <p class="footer__copyright">
+        &copy; Equipe composta por
+        <a
+          class="footer__link twitter-link"
+          target="_blank"
+          href="https://github.com/marismarcosta"
+          >Marismar Costa</a
+        >,
+        <a
+          class="footer__link twitter-link"
+          target="_blank"
+          href="https://github.com/mateustoin"
+          >Mateus Antonio</a
+        >, 
+        <a
+          class="footer__link twitter-link"
+          target="_blank"
+          href="https://github.com/lauradefaria"
+          >Laura de Faria</a
+        >, 
+        <a
+          class="footer__link twitter-link"
+          target="_blank"
+          href="https://github.com/EraldoCi"
+          >Gustavo Eraldo</a
+        >,
+        <a
+          class="footer__link twitter-link"
+          target="_blank"
+          href="https://github.com/JVictorGalvao"
+          >João Victor</a
+        >.
+      </p>
+    </footer>
+
+    <div class="modal hidden">
+      <button class="btn--close-modal">&times;</button>
+      <h2 class="modal__header">
+        Open your bank account <br />
+        in just <span class="highlight">5 minutes</span>
+      </h2>
+      <form class="modal__form">
+        <label>First Name</label>
+        <input type="text" />
+        <label>Last Name</label>
+        <input type="text" />
+        <label>Email Address</label>
+        <input type="email" />
+        <button class="btn">Next step &rarr;</button>
+      </form>
+    </div>
+    <div class="overlay hidden"></div>
+
+    <!-- <script src="../src/script.js"></script> -->
+  </body>
+</html>
