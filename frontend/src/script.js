@@ -10,6 +10,7 @@ const section1 = document.querySelector('#section--1');
 const btnCloseModal = document.querySelector('.btn--close-modal');
 const btnsOpenModal = document.querySelectorAll('.btn--show-modal');
 const btnScrollTo = document.querySelector('.btn--scroll-to');
+const bntNavLink = document.querySelector('.btn--redirect');
 
 const tabs = document.querySelectorAll('.operations__tab');
 const tabsContainer = document.querySelector('.operations__tab-container');
@@ -102,7 +103,15 @@ const init = function () {
   goToSlide(0);
 };
 
+const redirecToLogin = function () {
+  window.open('https://centralbit.moodlecloud.com/login/index.php');
+};
+
 // --------------- Event handlers  ---------------
+
+// Redirect to login handler
+bntNavLink.addEventListener('click', redirecToLogin);
+
 
 // Open and close modal
 btnsOpenModal.forEach(btn => btn.addEventListener('click', openModal));
