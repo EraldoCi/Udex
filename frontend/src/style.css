@@ -672,3 +672,70 @@ h4 {
   font-size: 1.5rem;
   font-weight: 400;
 }
+
+/* PROJECT CARDS*/
+.projects__container {
+  margin: 0 2.5rem;
+  display: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.projects__header {
+  display: block;
+  position: absolute;
+  top: -5rem;
+}
+
+.projects__header a:link,
+.projects__header a:visited,
+.projects__header a {
+  text-decoration: none;
+  color: inherit;
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
+.projects__cards {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10rem;
+}
+
+.projects__cards img {
+  width: 40rem;
+  height: 25rem;
+  border-radius: 0.3rem 0.3rem 0 0;
+}
+
+.projects__cards--item {
+  margin-right: 2rem;
+  border: 1px solid #ddd;
+  border-radius: 0.3rem;
+  position: relative;
+  width: 40rem;
+  overflow: hidden;
+}
+
+.projects__cards--item:hover{
+  cursor: pointer;
+}
+
+.projects__cards--item p {
+  margin: 1rem 2rem;
+  font-size: 1.5rem;
+}
+.projects__cards--item a {
+  font-weight: 600;
+  color: #222;
+  text-decoration: none;
+  transition: all 0.2s;
+}
+
+.projects__cards--item a:hover {
+  color: var(--color-primary);
+}
+
+.projects__container .btn--text {
+  margin-bottom: 9rem;
+}
