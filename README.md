@@ -22,7 +22,7 @@ Além da diversidade e qualidade dos conteúdos, os alunos irão desenvolver nov
 
 ## Instalação
 
-Para utilizar a health prevent technology em seu ambiente, clone este repositório e na pasta *frontend*. Caso utilize o Visual Studio é possível utilizar o [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) para execução da aplicação web.
+Para utilizar a Central Bit em seu ambiente, clone este repositório e na pasta *frontend*. Caso utilize o Visual Studio é possível utilizar o [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) para execução da aplicação web.
 
 ## Tecnologias
 
